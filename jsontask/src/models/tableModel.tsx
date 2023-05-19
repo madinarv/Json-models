@@ -5,7 +5,7 @@ export class TableModel {
     public id: number = 0;
     public phone: number = 0;
   
-    constructor(item: any, isOld: boolean = false) {
+    constructor(item: any ) {
       this._setName(item);
       this._setRegion(item);
       this._setEmail(item);
